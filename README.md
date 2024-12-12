@@ -21,7 +21,7 @@ An ASP.NET Razor application designed to scrape exchange rate data from HSBC web
 
 2. **Frontend Display**:
    - Renders exchange rate data in a table.
-   - Server-side control: Only retrieves the current set of 10 exchange rates from the stored data and sent to the client, which updates every 2 minutes.
+   - Server-side control: The server stores all the exchange rates and sends a set of 10 exchange rates to the client at a time. Every 2 minutes, the server cycles to the next set of 10 exchange rates from the stored data and sends it to the client.
    - The table on client side then refreshes automatically every 2 minutes to display the next set of 10 exchange rates.
    - Includes a timestamp showing the last update time.
 
