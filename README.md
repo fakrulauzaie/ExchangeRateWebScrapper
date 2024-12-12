@@ -12,7 +12,7 @@ An ASP.NET Razor application designed to scrape exchange rate data from HSBC web
 
 ---
 
-## How It Works
+## Implementation
 
 1. **Scraper Background Service**:
    - Runs as a hosted background service in the app.
